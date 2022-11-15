@@ -1,0 +1,45 @@
+.section-3-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 250px;
+  display: flex;
+}
+
+.section_3 {
+  &-title {
+    &-container {
+      padding-right: 150px;
+      padding-top: 20px;
+      padding-left: 64px;
+      max-width: 720px;
+      background: #fbfbfd;
+    }
+    &-font {
+      font-family: $font;
+      font-style: normal;
+      font-size: 32px;
+      line-height: 36px;
+      color: #03060b;
+      &-span {
+        font-weight: 700;
+      }
+    }
+    &-button {
+      display: inline-block;
+      margin-top: 40px;
+      &-font {
+        text-decoration: none;
+        font-family: $font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.28px;
+        color: #3880ff;
+      }
+      &-arrow {
+        margin-left: 4px;
+      }
+    }
+  }
+}

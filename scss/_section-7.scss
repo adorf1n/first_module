@@ -1,0 +1,32 @@
+.section-7-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 51px;
+}
+
+.section-7 {
+  &-copyright {
+    &-container {
+      margin-left: 30px;
+      display: flex;
+      gap: 12px;
+    }
+    &-font {
+      font-family: $font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 15px;
+      color: #92a0b3;
+    }
+  }
+  &-social {
+    &-container {
+      display: flex;
+      gap: 18px;
+    }
+  }
+}

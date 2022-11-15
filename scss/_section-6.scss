@@ -1,0 +1,44 @@
+.section-6 {
+  &-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 139px;
+    display: flex;
+    gap: 122px;
+    padding-bottom: 70px;
+    border-bottom: solid 1px #e9edf3;
+  }
+  &-title {
+    &-font {
+      margin-bottom: 15px;
+      font-family: $font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.32px;
+      color: #03060b;
+    }
+  }
+  &-logo {
+    margin-top: 18px;
+  }
+  &-link {
+    &-font {
+      text-decoration: none;
+      font-family: $font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 22px;
+      letter-spacing: 0.14px;
+      color: #445b78;
+    }
+  }
+  &-col_direction {
+    display: flex;
+    gap: 11px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
