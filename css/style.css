@@ -355,7 +355,10 @@ html {
 }
 
 .imgline-container {
-  max-width: 1185px;
+  display: flex;
+  gap: 140px;
+  max-width: 1140px;
+  max-height: 34px;
   margin: 0 auto;
   margin-top: 12.5rem;
   margin-bottom: 200px;
@@ -725,7 +728,7 @@ html {
   color: #3880ff;
 }
 
-.section-6-container {
+.footer-container {
   max-width: 1150px;
   margin: 0 auto;
   margin-top: 139px;
@@ -734,7 +737,7 @@ html {
   padding-bottom: 70px;
   border-bottom: solid 1px #e9edf3;
 }
-.section-6-title-font {
+.footer-title-font {
   margin-bottom: 15px;
   font-family: "Arial";
   font-style: normal;
@@ -744,10 +747,10 @@ html {
   letter-spacing: 0.32px;
   color: #03060b;
 }
-.section-6-logo {
+.footer-logo {
   margin-top: 18px;
 }
-.section-6-link-font {
+.footer-link-font {
   text-decoration: none;
   font-family: "Arial";
   font-style: normal;
@@ -757,14 +760,14 @@ html {
   letter-spacing: 0.14px;
   color: #445b78;
 }
-.section-6-col_direction {
+.footer-col_direction {
   display: flex;
   gap: 11px;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.section-7-container {
+.copyright-container {
   max-width: 1140px;
   margin: 0 auto;
   margin-top: 50px;
@@ -773,12 +776,12 @@ html {
   padding-bottom: 51px;
 }
 
-.section-7-copyright-container {
+.copyright-copyright-container {
   margin-left: 30px;
   display: flex;
   gap: 12px;
 }
-.section-7-copyright-font {
+.copyright-copyright-font {
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
@@ -786,7 +789,7 @@ html {
   line-height: 15px;
   color: #92a0b3;
 }
-.section-7-social-container {
+.copyright-social-container {
   display: flex;
   gap: 18px;
 }

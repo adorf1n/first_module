@@ -98,8 +98,10 @@
 }
 .imgline {
   &-container {
-    max-width: 1185px;
-
+    display: flex;
+    gap: 140px;
+    max-width: 1140px;
+    max-height: 34px;
     margin: 0 auto;
     margin-top: 12.5rem;
     margin-bottom: 200px;
