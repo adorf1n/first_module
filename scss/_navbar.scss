@@ -3,7 +3,6 @@ $roboto: "Roboto Mono";
 
 .top-container {
   max-width: 1140px;
-  min-width: 500px;
   margin: 0 auto;
   margin-top: 25px;
 }
@@ -67,4 +66,63 @@ $hamburger-types: (collapse);
 
 .hamburger {
   display: none;
+}
+@media all and (max-width: 980px) {
+  .hamburger {
+    display: inline-flex;
+    margin-left: auto;
+    max-width: 100%;
+    z-index: 101;
+  }
+  .navbar {
+    &-logo {
+      margin-left: 1.875rem;
+    }
+    &-buttons {
+      flex-direction: column;
+      margin-bottom: 3.125rem;
+      margin-top: 3.125rem;
+    }
+    &-group {
+      z-index: 100;
+      background: white;
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 15rem;
+      height: 100%;
+      box-shadow: 0 0 10px black;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.8rem;
+      transform: translateX(calc(100% + 10px));
+      will-change: transform;
+      transition: transform 0.3s ease-in;
+    }
+    &-group.is-active {
+      transform: translate(0);
+    }
+    &-font {
+      font-size: 20px;
+    }
+    &-sign_in {
+      &-flex {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 2.1875rem;
+      }
+      &_1 {
+        font-size: 20px;
+      }
+      &_2 {
+        font-size: 20px;
+        &-arrow {
+          width: 17px;
+          height: 11px;
+        }
+      }
+    }
+  }
 }

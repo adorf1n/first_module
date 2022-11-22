@@ -4,7 +4,8 @@
   margin: 0 auto;
   margin-top: 7.5rem;
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
+  padding: 15px;
 }
 
 .overview-font {
@@ -62,11 +63,12 @@
 }
 .images-container {
   max-width: 1140px;
-  min-width: 500px;
+
   margin: 0 auto;
   display: flex;
   margin-top: 4.375rem;
-  justify-content: space-between;
+  gap: 100px;
+  padding: 0 20px;
 }
 
 .images {
@@ -105,5 +107,56 @@
     margin: 0 auto;
     margin-top: 12.5rem;
     margin-bottom: 200px;
+  }
+}
+
+@media all and (max-width: 1190px) {
+  .overview {
+    &-container {
+      gap: 15px;
+    }
+    &-header {
+      &-lower_text {
+        &-button {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .images-container {
+    gap: 70px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .imgline {
+    &-container {
+      gap: 100px;
+      max-width: 940px;
+    }
+  }
+
+  .overview-header {
+    &-h1 {
+      &-font {
+        font-size: 55px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 940px) {
+  .overview {
+    &-header {
+      &-lower_text {
+        &-font {
+          font-size: 20px;
+          line-height: 1.6;
+        }
+      }
+      &-img {
+        margin-right: -200px;
+      }
+    }
   }
 }
