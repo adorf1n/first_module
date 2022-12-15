@@ -124,6 +124,10 @@
 }
 @media all and (max-width: 390px) {
   .header {
+    &-text {
+      margin-top: 50px;
+      margin-bottom: -80px;
+    }
     &-button {
       &_flex {
         gap: 3rem;
@@ -143,6 +147,24 @@
       &-font {
         font-size: 23px;
         line-height: 44px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 378px) {
+  .header {
+    &-button {
+      &_flex {
+        gap: 5px;
+      }
+      &_1 {
+        font-size: 18px;
+      }
+      &_2 {
+        &-font {
+          font-size: 18px;
+        }
       }
     }
   }
