@@ -1,6 +1,7 @@
 .copyright-container {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 20px;
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
@@ -27,6 +28,28 @@
     &-container {
       display: flex;
       gap: 18px;
+    }
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .copyright {
+    &-container {
+      gap: 20px;
+    }
+  }
+}
+
+@media all and (max-width: 750px) {
+  .copyright {
+    &-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    &-copyright {
+      &-container {
+        margin: 0;
+      }
     }
   }
 }
