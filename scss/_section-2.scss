@@ -114,6 +114,9 @@
 
 .section_2 {
   &-img {
+    &-container {
+      padding: 0 20px;
+    }
     &-button {
       font-size: 14px;
       padding: 10px 19px 10px 19px;
@@ -134,5 +137,11 @@
       margin-top: 50px;
       margin-bottom: 50px;
     }
+  }
+}
+
+@media all and (max-width: 590px) {
+  .section_2-img-container {
+    display: none;
   }
 }

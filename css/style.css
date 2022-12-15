@@ -496,6 +496,11 @@ html {
   margin-bottom: 200px;
 }
 
+@media all and (max-width: 1700px) {
+  overview-container {
+    margin-bottom: 1500px;
+  }
+}
 @media all and (max-width: 1190px) {
   .overview-container {
     gap: 15px;
@@ -544,6 +549,9 @@ html {
   }
 }
 @media all and (max-width: 872px) {
+  .overview-container {
+    margin-bottom: 120px;
+  }
   .imgline-container {
     display: flex;
     gap: 80px;
@@ -891,6 +899,9 @@ html {
     flex-direction: column;
   }
 }
+.section_2-img-container {
+  padding: 0 20px;
+}
 .section_2-img-button {
   font-size: 14px;
   padding: 10px 19px 10px 19px;
@@ -908,6 +919,11 @@ html {
   margin-bottom: 50px;
 }
 
+@media all and (max-width: 590px) {
+  .section_2-img-container {
+    display: none;
+  }
+}
 .section-3-container {
   max-width: 1140px;
   margin: 0 auto;

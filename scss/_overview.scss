@@ -115,6 +115,14 @@
   }
 }
 
+@media all and (max-width: 1700px) {
+  overview {
+    &-container {
+      margin-bottom: 1500px;
+    }
+  }
+}
+
 @media all and (max-width: 1190px) {
   .overview {
     &-container {
@@ -190,6 +198,12 @@
 }
 
 @media all and (max-width: 872px) {
+  .overview {
+    &-container {
+      margin-bottom: 120px;
+    }
+  }
+
   .imgline {
     &-container {
       display: flex;
