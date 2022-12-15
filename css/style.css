@@ -950,6 +950,50 @@ html {
   margin-left: 4px;
 }
 
+@media all and (max-width: 1140px) {
+  .section_3-title-container {
+    padding-right: 50px;
+  }
+  .section_3-title-button-font {
+    font-size: 15px;
+  }
+}
+@media all and (max-width: 1015px) {
+  .section-3-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.section_3-title-container {
+  max-width: 500px;
+}
+.section_3-title-button {
+  margin-top: 0;
+}
+.section_3-title-button-font {
+  font-size: 16px;
+}
+
+@media all and (max-width: 600px) {
+  .section-3-img {
+    max-width: 400px;
+  }
+  .section-3-img-container {
+    margin-left: -70px;
+  }
+  .section_3-title-font {
+    font-size: 29px;
+  }
+  .section_3-title-container {
+    padding-right: 70px;
+    padding-left: 40px;
+  }
+}
+@media all and (max-width: 440px) {
+  .section_3-title-button-font {
+    font-size: 18px;
+  }
+}
 .section-4-container {
   max-width: 1140px;
   margin: 0 auto;
