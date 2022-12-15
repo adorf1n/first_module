@@ -1,10 +1,16 @@
 .footer {
+  &-buttons {
+    background-color: white;
+    color: #03060b;
+    border: none;
+  }
   &-container {
+    padding: 0 20px;
     max-width: 1150px;
     margin: 0 auto;
     margin-top: 139px;
     display: flex;
-    gap: 122px;
+    justify-content: space-between;
     padding-bottom: 70px;
     border-bottom: solid 1px #e9edf3;
   }
@@ -21,7 +27,7 @@
     }
   }
   &-logo {
-    margin-top: 18px;
+    margin-top: -5px;
   }
   &-link {
     &-font {
@@ -40,5 +46,28 @@
     gap: 11px;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width: 920px) {
+  .footer {
+    &-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 45px;
+    }
+    &-col_direction {
+      gap: 25px;
+    }
+    &-link {
+      &-font {
+        font-size: 19px;
+      }
+    }
+    &-title {
+      &-font {
+        font-size: 20px;
+      }
+    }
   }
 }
