@@ -302,6 +302,12 @@
       }
     }
   }
+  .images {
+    &-container {
+      max-width: 350px;
+      margin-left: 40px;
+    }
+  }
 }
 
 @media all and (max-width: 470px) {
@@ -313,6 +319,16 @@
       &-img {
         max-height: 350px;
       }
+    }
+  }
+}
+
+@media all and (max-width: 430px) {
+  .images {
+    &-container {
+      max-width: 350px;
+      margin-left: 20px;
+      overflow: hidden;
     }
   }
 }

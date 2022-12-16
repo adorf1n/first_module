@@ -91,6 +91,13 @@
       }
     }
   }
+  @media all and (max-width: 590px) {
+    .section-3 {
+      &-container {
+        margin-top: 100px;
+      }
+    }
+  }
   .section_3 {
     &-title {
       &-font {
